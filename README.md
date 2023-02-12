@@ -1,5 +1,5 @@
-# Bem vindo a programação Front-end 👾💻
+# Bem vindo ao curso Desenvolvimento de Sistemas 👾💻
 
-Oie, meu nome é **Anna**, e estou no 2º ano de desenvolvimento de sistemas
+Oiê sou a Anna, e estou no 2º ano de Desen. de Sistemas
 
-Email de estudante: anna.meregali@escola.pr.gov.br
+**Email de estudante:** anna.meregali@escola.pr.gov.br
