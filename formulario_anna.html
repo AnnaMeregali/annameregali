@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="formulario_anna.css"> <!--importar o css dentro do html-->
+
+</head>
+<body>
+    <header>
+        <div id="logozinha"><img id="logo" src="2.png"></div>
+        <h1 class="titulo-principal">Anna Meregali</h1></header>
+
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" name="nome" id="nomesobrenome" class="input-padrao" placeholder="Seu nome e sobrenome" required>
+            <br><br>
+            <label for="email">E-mail</label>
+            <input type="text" name="email" id="email" class="input-padrao" placeholder="Digite seu email" required>
+            <br><br>
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" class="input-padrao" placeholder="(xx) xxxxx-xxxx" required>
+            <br><br>
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" cols="60" rows="30" required></textarea>
+            <br><br><br><br>
+
+            <section>
+                <p>Como prefere nosso contato?</p>
+                <input type="radio" name="contato" value="email" id="radio-email">
+                <label for="radio-email">Email</label>
+
+                <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                <label for="radio-telefone">Telefone</label>
+
+                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
+                <label for="radio-whatsapp">Whatsapp</label>
+            </section>
+
+            <section>
+                <p>Qual horário prefere ser atendido</p>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </section>
+            <label for="checkbox">
+                <input type="checkbox">Gostaria de receber nossas novidades por email?
+            </label>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+
+        </form>
+    </main>
+
+    <footer>
+        <img src="2-removebg-preview.png" id="logotipo1">
+        <p class="copyright"> &copy; Copyright -- Anna Meregali</p>
+    </footer>
+</body>
+</html>
