@@ -6,11 +6,9 @@ header{
     border: 2px solid #8D4DB8;
     border-radius: 3px;
     box-shadow: 1px 1px 1px #6303a6;
-}
-
-#logozinha{
     text-align: center;
 }
+
 
 #logo{
     border-radius: 2px;
@@ -25,7 +23,7 @@ header{
 } 
 main{
     width: 940px;
-    margin-left:700px;
+    margin:auto;
 } 
 form{
     margin: 40px 0;
@@ -70,18 +68,20 @@ footer{
     font-size: 13px;
     margin: 10px 0px 0px;
 }
-div{
-    top: -30%;
+nav{
     text-align: center;
+    margin-top: -30px;
 }
 a{
     text-decoration: none;
     color:#6303a6 ;
-    top: -30%;
+    margin-left: 15px;
+
 }
 a:hover{
     text-decoration: underline;
     color: black;
+    font-size: 18px;
 }
 
 
@@ -91,11 +91,4 @@ textarea{
 ul{
     display: inline-block;
     font-size: 1.2em;
-}
-li{
-    display: inline-block;
-    height: 30px;
-    background-color: #a29de5;
-    width: 100px;
-    
 }
